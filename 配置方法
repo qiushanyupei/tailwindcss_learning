@@ -1,1 +1,5 @@
 https://blog.csdn.net/muzihuaner/article/details/145695409
+npx tailwindcss init 出现tailwind: not found
+执行下面命令解决
+npm install -D tailwindcss@3.4.17
+npx tailwindcss init
