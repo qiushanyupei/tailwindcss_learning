@@ -3,3 +3,7 @@ npx tailwindcss init 出现tailwind: not found
 执行下面命令解决
 npm install -D tailwindcss@3.4.17
 npx tailwindcss init
+导入React框架方法（以下语句导入了tailwind的基本类）
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
